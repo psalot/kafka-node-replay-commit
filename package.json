@@ -1,0 +1,36 @@
+{
+	"name": "kafka-replay-commit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"test-single": "mocha --timeout 100000 $1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/psalot/kafka-node-replay-commit.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/psalot/kafka-node-replay-commit/issues"
+	},
+	"homepage": "https://github.com/psalot/kafka-node-replay-commit#readme",
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"docdash": "^1.0.2",
+		"mocha": "^5.2.0",
+		"nyc": "^13.3.0",
+		"sinon": "^7.2.2",
+		"supertest": "^3.3.0"
+	},
+	"dependencies": {
+		"async": "^3.0.1",
+		"lodash": "^4.17.11",
+		"node-rdkafka": "2.6.1"
+	}
+}
